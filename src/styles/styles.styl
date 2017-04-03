@@ -1,0 +1,30 @@
+html
+  box-sizing border-box
+
+*, *:before, *:after
+  box-sizing inherit
+
+h1, h2, h3, h4, h5
+  margin 0
+
+:root
+  --accent wheat
+  --standard-text #eee
+  --light-blue #22c1ff
+
+a
+  text-decoration none
+  color steelblue
+
+body
+  height 100%
+  width 100%
+  margin 0
+
+.flex-center
+  display flex
+  align-items center
+  justify-content center
+.flex-center-v
+  @extend .flex-center
+  flex-direction column
